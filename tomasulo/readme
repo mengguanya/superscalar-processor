@@ -1,3 +1,4 @@
+0. 程序在Windows10 visual studio2019中调试通过，可以持续在控制台输出每周期的所有部件的状态信息
 1. 算法的实现参考了 R. M. Tomasulo, "An Efficient Algorithm for Exploiting Multiple Arithmetic Units," in IBM Journal of Research and Development, vol. 11, no. 1, pp. 25-33, Jan. 1967, doi: 10.1147/rd.111.0025.
 2. 程序可以接受RISCV浮点指令（包括fadd.s, fsub.s, fmul.s, fdiv.s, flw, fsw）
 3. 程序原设计为可配置延迟和部件数量的模拟器，目前尚未实现。如有需求可将tomasulo.cpp中的部件定义数组改为动态申请空间即可通过主函数传参改变模拟器参数。
