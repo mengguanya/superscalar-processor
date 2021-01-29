@@ -1,0 +1,6 @@
+flw 6 2 34 
+flw 2 3 45
+fmul.s 0 2 4
+fsub.s 8 6 2
+fdiv.s 10 0 6
+fadd.s 6 8 2
