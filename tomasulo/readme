@@ -1,0 +1,7 @@
+1. 算法的实现参考了 R. M. Tomasulo, "An Efficient Algorithm for Exploiting Multiple Arithmetic Units," in IBM Journal of Research and Development, vol. 11, no. 1, pp. 25-33, Jan. 1967, doi: 10.1147/rd.111.0025.
+2. 程序可以接受RISCV浮点指令（包括fadd.s, fsub.s, fmul.s, fdiv.s, flw, fsw）
+3. 程序原设计为可配置延迟和部件数量的模拟器，目前尚未实现。如有需求可将tomasulo.cpp中的部件定义数组改为动态申请空间即可通过主函数传参改变模拟器参数。
+4. 程序目前不能处理分支指令，只能处理简单的浮点访存和计算指令流。
+5. 程序中通过数组开辟了内存单元、定点和浮点寄存器，理论来讲已经支持输出运算结果，但是这个功能还没有调试，也没有在主函数写相应的输出函数。
+6. 此项目为个人兴趣短时间内开发出来的，目前仍存在演示不友好、潜在bug等问题。
+7. 其他问题请联系mguanya@163.com
